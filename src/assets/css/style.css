@@ -479,7 +479,7 @@ select {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url(../images/icon/angle-down-solid.png);
+  /* background-image: url(../images/icon/angle-down-solid.png); */
   background-repeat: no-repeat;
   background-size: 8px;
   background-position: calc(100% - 20px);

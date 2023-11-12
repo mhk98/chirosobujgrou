@@ -247,7 +247,7 @@ a.hover-text-extra1:hover {
 .nav-primary-hover.nav-line-active .navbar-nav .active > .nav-link:before,
 .nav-primary-hover.nav-down-line-active .navbar-nav .active > .nav-link:before,
 .bg-primary {
-  background- 
+  /* background-  */
 }
 
 .hover-bg-secondary:hover,
@@ -379,7 +379,7 @@ a.hover-text-extra1:hover {
 
 a.hover-bg-primary:hover,
 .hover-bg-primary:hover {
-  background- 
+  /* background-  */
 }
 
 /*==========================================================
@@ -1420,7 +1420,7 @@ a.text-dark:focus {
 }
 
 .border-primary {
-  border- 
+  /* border-  */
 }
 
 .border-dark {
@@ -2037,7 +2037,7 @@ ul.product_list_widget li {
 
 .owl-carousel button.owl-dot.active {
   width: 15px;
-  background- 
+  /* background-  */
   border-radius: 2px;
 }
 
@@ -2127,7 +2127,7 @@ ul.product_list_widget li {
 .nav-tab-line li {
   border-width: 0 0 2px 0 !important;
   border-style: solid !important;
-  border- 
+  /* border-  */
 }
 
 .nav-tab-box {
@@ -2558,7 +2558,7 @@ ul.nav-tab-border-active .mixitup-control-active {
 }
 
 .feature-thumb-border:hover {
-  background- 
+  /* background-  */
 }
 
 .thumb-border {
@@ -3094,7 +3094,7 @@ ul.nav-tab-border-active .mixitup-control-active {
 }
 
 .testimonial-simple .owl-carousel button.owl-dot.active {
-  background- 
+  /* background-  */
 }
 
 .testimonial-slider .testimonial-item {
@@ -3170,8 +3170,8 @@ ul.nav-tab-border-active .mixitup-control-active {
 }
 
 .testimonial-classic .owl-nav button:hover {
-  border- 
-  background- 
+  /* border-  */
+  /* background-  */
   color: var(--theme-white-color) !important;
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "../assets/images/logo/CS.png";
 const Navbar = () => {
   return (
     <div>
@@ -52,7 +52,7 @@ const Navbar = () => {
                     <a className="navbar-brand" href="#">
                       <img
                         className="nav-logo"
-                        src="assets/images/logo/CS.png"
+                        src={logo}
                         alt="Image not found !"
                       />
                     </a>
@@ -283,26 +283,17 @@ const Navbar = () => {
                               </a>
                               <ul className="dropdown-menu">
                                 <li>
-                                  <a
-                                    className="dropdown-item"
-                                    href="assets1.html"
-                                  >
+                                  <a className="dropdown-item" href="/asset1">
                                     Eicher Drum Truck
                                   </a>
                                 </li>
                                 <li>
-                                  <a
-                                    className="dropdown-item"
-                                    href="assets2.html"
-                                  >
+                                  <a className="dropdown-item" href="/asset2">
                                     Isuzu Drum Truck
                                   </a>
                                 </li>
                                 <li>
-                                  <a
-                                    className="dropdown-item"
-                                    href="assets3.html"
-                                  >
+                                  <a className="dropdown-item" href="/asset3">
                                     Noah
                                   </a>
                                 </li>
@@ -321,7 +312,7 @@ const Navbar = () => {
                             <li className="dropdown">
                               <a
                                 className="dropdown-item"
-                                href="certification.html"
+                                href="/certification"
                               >
                                 Certification{" "}
                               </a>
@@ -347,10 +338,7 @@ const Navbar = () => {
                           </a>
                           <ul className="dropdown-menu">
                             <li className="dropdown">
-                              <a
-                                className="dropdown-item"
-                                href="help-fund.html"
-                              >
+                              <a className="dropdown-item" href="/help-fund">
                                 Help Fund
                               </a>
                             </li>
@@ -425,7 +413,7 @@ const Navbar = () => {
                             <li className="dropdown">
                               <a
                                 className="dropdown-item"
-                                href="photo-gallery.html"
+                                href="/photo-gallery"
                               >
                                 Photo Gallery
                               </a>
@@ -438,10 +426,7 @@ const Navbar = () => {
                           </ul>
                         </li>
                         <li className="nav-item">
-                          <a
-                            className="nav-link text-white"
-                            href="fullwidth/contact.html"
-                          >
+                          <a className="nav-link text-white" href="/contact">
                             Contact
                           </a>
                         </li>

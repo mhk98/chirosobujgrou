@@ -20,9 +20,31 @@ import HandOver from "./Projects/HandOver";
 import LandWanted from "./Query/LandWanted";
 import Buyers from "./Query/Buyers";
 
+import Certification from "./Components/Certification";
+import HelpFund from "./Components/helpFund/HelpFund";
+import PhotoGallery from "./Components/media/PhotoGallery";
+import Contact from "./Components/contact/Contact";
+import OnGoingDetails from "./Projects/OnGoingDetails";
+import Asset1 from "./property/Asset1";
+import Asset3 from "./property/Asset3";
+import Asset2 from "./property/Asset2";
+
+import "./assets/css/bootstrap.min.css";
+import "./assets/css/bootstrap-select.min.css";
+import "./assets/css/all.min.css";
+import "./assets/css/animate.min.css";
+import "./assets/webfonts/flaticon/flaticon.css";
+import "./assets/css/owl.css";
+import "./assets/css/jquery.fancybox.min.css";
+import "./assets/css/layerslider.css";
+import "./assets/css/template.css";
+import "./assets/css/style.css";
+import "./assets/css/colors/color.css";
+// import "./assets/css/loader.css";
+
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Navbar />
 
       <Routes>
@@ -45,9 +67,17 @@ function App() {
         <Route path="/notice-board" element={<NoticeBoard />}></Route>
         <Route path="/upcoming" element={<UpComing />}></Route>
         <Route path="/ongoing" element={<OnGoing />}></Route>
+        <Route path="/ongoing-details/:id" element={<OnGoingDetails />}></Route>
         <Route path="/handover" element={<HandOver />}></Route>
         <Route path="/land-wanted" element={<LandWanted />}></Route>
         <Route path="/buyers" element={<Buyers />}></Route>
+        <Route path="/asset1" element={<Asset1 />}></Route>
+        <Route path="/asset2" element={<Asset2 />}></Route>
+        <Route path="/asset3" element={<Asset3 />}></Route>
+        <Route path="/certification" element={<Certification />}></Route>
+        <Route path="/help-fund" element={<HelpFund />}></Route>
+        <Route path="/photo-gallery" element={<PhotoGallery />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
       </Routes>
       <Footer />
       <ToastContainer />

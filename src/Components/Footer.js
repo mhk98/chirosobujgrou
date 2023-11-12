@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/images/logo/CS.png";
 
 const Footer = () => {
   return (
@@ -14,10 +15,7 @@ const Footer = () => {
               <div className="footer-widget mb-4">
                 <div className="footer-logo">
                   <a href="#">
-                    <img
-                      src="assets/images/logo/CS.png"
-                      alt="Image not found!"
-                    />
+                    <img src={logo} alt="Image not found!" />
                   </a>
                 </div>
                 <p>
