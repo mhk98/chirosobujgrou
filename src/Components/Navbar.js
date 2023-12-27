@@ -3,9 +3,7 @@ import logo from "../assets/images/logo/CS.png";
 const Navbar = () => {
   return (
     <div>
-      <div className="preloader">
-        <div className="loader xy-center" />
-      </div>
+      <div className="">{/* <div className="loader xy-center" /> */}</div>
       <div id="page_wrapper">
         {/*============== Header Section Start ==============*/}
         <header className="header-style-1 nav-on-banner fixed-bg-secondary bg-dark p-3">
@@ -49,7 +47,7 @@ const Navbar = () => {
               <div className="row">
                 <div className="col">
                   <nav className="navbar navbar-expand-lg nav-white nav-primary-hover nav-line-active">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/">
                       <img
                         className="nav-logo"
                         src={logo}
@@ -318,12 +316,18 @@ const Navbar = () => {
                               </a>
                             </li>
                             <li className="dropdown">
-                              <a className="dropdown-item" href>
+                              <a
+                                className="dropdown-item"
+                                href="/clients-feedback"
+                              >
                                 Clients Feedback
                               </a>
                             </li>
                             <li className="dropdown">
-                              <a className="dropdown-item" href>
+                              <a
+                                className="dropdown-item"
+                                href="/shareholder-feedback"
+                              >
                                 Shareholder Feedback
                               </a>
                             </li>
@@ -353,17 +357,14 @@ const Navbar = () => {
                           </a>
                           <ul className="dropdown-menu">
                             <li className="dropdown">
-                              <a
-                                className="dropdown-item"
-                                href="fullwidth/property-single-v1.html"
-                              >
+                              <a className="dropdown-item" href="/jahangir-gym">
                                 Jahangir Gym Club
                               </a>
                             </li>
                             <li className="dropdown">
                               <a
                                 className="dropdown-item"
-                                href="fullwidth/property-single-v1.html"
+                                href="/english-version-school"
                               >
                                 English Version School
                               </a>
@@ -371,7 +372,7 @@ const Navbar = () => {
                             <li className="dropdown">
                               <a
                                 className="dropdown-item"
-                                href="fullwidth/property-single-v1.html"
+                                href="/diagnostic-center"
                               >
                                 CS Specialized Diagnostic Center
                               </a>
@@ -379,7 +380,7 @@ const Navbar = () => {
                             <li className="dropdown">
                               <a
                                 className="dropdown-item"
-                                href="fullwidth/property-single-v1.html"
+                                href="/travels"
                               >
                                 Chiro Sobuj Travels
                               </a>
@@ -387,7 +388,7 @@ const Navbar = () => {
                             <li className="dropdown">
                               <a
                                 className="dropdown-item"
-                                href="fullwidth/property-single-v1.html"
+                                href="/promotional-printing"
                               >
                                 CS Promotional &amp; Printing Items Suppliers
                               </a>
@@ -395,7 +396,7 @@ const Navbar = () => {
                             <li className="dropdown">
                               <a
                                 className="dropdown-item"
-                                href="fullwidth/property-single-v1.html"
+                                href="/electronic-house"
                               >
                                 CS Electric &amp; Electronics House
                               </a>

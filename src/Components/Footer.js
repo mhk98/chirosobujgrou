@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="col">
               <div className="footer-widget mb-4">
                 <div className="footer-logo">
-                  <a href="#">
+                  <a href="/">
                     <img src={logo} alt="Image not found!" />
                   </a>
                 </div>

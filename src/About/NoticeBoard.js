@@ -7,7 +7,7 @@ const NoticeBoard = () => {
   <div className="page-banner-simple bg-light">
     <div className="container">
       <div className="row" style={{padding: '80px 0'}}>
-        <div className="col-lg-6 col-md-12">
+        <div className="col-lg-6 col-md-12" style={{marginTop:"100px"}}>
           <span className="banner-tagline d-table text-primary font-medium mb-2">Timeline Page</span>
           <h1 className="banner-title text-secondary">Whether buying or renting, finding the right place.</h1>
           <nav aria-label="breadcrumb" className="mb-2 ms-0">

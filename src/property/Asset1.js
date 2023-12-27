@@ -2,360 +2,59 @@ import React from "react";
 
 const Asset1 = () => {
   return (
-    <div style={{ marginTop: "250px" }}>
-      <div className="full-row pt-0">
+    <div>
+      {/*============== Page Banner Start ==============*/}
+      <div
+        className="page-banner-simple bg-secondary py-50"
+        style={{
+          backgroundImage: "url(assets/images/background/bg-1.png)",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center center",
+          backgroundSize: "cover",
+          marginTop: 100,
+        }}
+      >
         <div className="container">
-          <div className="row row-cols-md-3 row-cols-1 g-4">
-            <div className="col">
-              <div className="gallery-one">
-                <div className="photo-overlay">
-                  <a
-                    href="#quick-view"
-                    className="quick-view transation xy-center"
-                  >
-                    <span className="flaticon-eye-1 text-primary" />
-                  </a>
-                  <a
-                    href="assets/images/property_grid/property-grid-1.png"
-                    className="photo-view transation xy-center"
-                    data-fancybox="gallery"
-                    data-caption="Caption for image"
-                  >
-                    <span className="flaticon-zoom-in" />
-                  </a>
-                  <img
-                    src="assets/images/property_grid/property-grid-1.png"
-                    alt="real estate template"
-                  />
-                </div>
-                <div className="portfolio-info mt-3">
-                  <div className="portfolio-title d-inline-block">
-                    <h5 className="font-400 mb-0">
-                      <a href="#" className="text-secondary">
-                        Interior Design
-                      </a>
-                    </h5>
-                    <div className="text-primary">
-                      <a href="#">Business</a> . <a href="#">interior</a>
-                    </div>
-                  </div>
-                  <div className="portfolio-view float-end d-inline-block">
-                    <span className="flaticon-eye text-primary flat-mini" /> 21
-                  </div>
-                </div>
-              </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <h3 className="banner-title text-white">Eicher Drum Truck</h3>
+              <span className="banner-tagline font-medium text-white">
+                We make strategies, design &amp; development to create valuable
+                products.
+              </span>
             </div>
-            <div className="col">
-              <div className="gallery-one">
-                <div className="photo-overlay">
-                  <a
-                    href="#quick-view"
-                    className="quick-view transation xy-center"
-                  >
-                    <span className="flaticon-eye-1 text-primary" />
-                  </a>
-                  <a
-                    href="assets/images/property_grid/property-grid-2.png"
-                    className="photo-view transation xy-center"
-                    data-fancybox="gallery"
-                    data-caption="Caption for image"
-                  >
-                    <span className="flaticon-zoom-in" />
-                  </a>
-                  <img
-                    src="assets/images/property_grid/property-grid-2.png"
-                    alt="real estate template"
-                  />
-                </div>
-                <div className="portfolio-info mt-3">
-                  <div className="portfolio-title d-inline-block">
-                    <h5 className="font-400 mb-0">
-                      <a href="#" className="text-secondary">
-                        Interior Design
-                      </a>
-                    </h5>
-                    <div className="text-primary">
-                      <a href="#">Business</a> . <a href="#">interior</a>
-                    </div>
-                  </div>
-                  <div className="portfolio-view float-end d-inline-block">
-                    <span className="flaticon-eye text-primary flat-mini" /> 21
-                  </div>
-                </div>
-              </div>
+          </div>
+        </div>
+      </div>
+      {/*============== Page Banner End ==============*/}
+
+      <div className="full-row">
+        <div className="container">
+          <div className="row" style={{ justifyContent: "space-between" }}>
+            <div className="col-lg-5">
+              <img src="assets/images/about-us/1660046501O37Zo_m.jpg" alt />
             </div>
-            <div className="col">
-              <div className="gallery-one">
-                <div className="photo-overlay">
-                  <a
-                    href="#quick-view"
-                    className="quick-view transation xy-center"
-                  >
-                    <span className="flaticon-eye-1 text-primary" />
-                  </a>
-                  <a
-                    href="assets/images/property_grid/property-grid-3.png"
-                    className="photo-view transation xy-center"
-                    data-fancybox="gallery"
-                    data-caption="Caption for image"
-                  >
-                    <span className="flaticon-zoom-in" />
-                  </a>
-                  <img
-                    src="assets/images/property_grid/property-grid-3.png"
-                    alt="real estate template"
-                  />
-                </div>
-                <div className="portfolio-info mt-3">
-                  <div className="portfolio-title d-inline-block">
-                    <h5 className="font-400 mb-0">
-                      <a href="#" className="text-secondary">
-                        Interior Design
-                      </a>
-                    </h5>
-                    <div className="text-primary">
-                      <a href="#">Business</a> . <a href="#">interior</a>
-                    </div>
-                  </div>
-                  <div className="portfolio-view float-end d-inline-block">
-                    <span className="flaticon-eye text-primary flat-mini" /> 21
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="gallery-one">
-                <div className="photo-overlay">
-                  <a
-                    href="#quick-view"
-                    className="quick-view transation xy-center"
-                  >
-                    <span className="flaticon-eye-1 text-primary" />
-                  </a>
-                  <a
-                    href="assets/images/property_grid/property-grid-4.png"
-                    className="photo-view transation xy-center"
-                    data-fancybox="gallery"
-                    data-caption="Caption for image"
-                  >
-                    <span className="flaticon-zoom-in" />
-                  </a>
-                  <img
-                    src="assets/images/property_grid/property-grid-4.png"
-                    alt="real estate template"
-                  />
-                </div>
-                <div className="portfolio-info mt-3">
-                  <div className="portfolio-title d-inline-block">
-                    <h5 className="font-400 mb-0">
-                      <a href="#" className="text-secondary">
-                        Interior Design
-                      </a>
-                    </h5>
-                    <div className="text-primary">
-                      <a href="#">Business</a> . <a href="#">interior</a>
-                    </div>
-                  </div>
-                  <div className="portfolio-view float-end d-inline-block">
-                    <span className="flaticon-eye text-primary flat-mini" /> 21
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="gallery-one">
-                <div className="photo-overlay">
-                  <a
-                    href="#quick-view"
-                    className="quick-view transation xy-center"
-                  >
-                    <span className="flaticon-eye-1 text-primary" />
-                  </a>
-                  <a
-                    href="assets/images/property_grid/property-grid-5.png"
-                    className="photo-view transation xy-center"
-                    data-fancybox="gallery"
-                    data-caption="Caption for image"
-                  >
-                    <span className="flaticon-zoom-in" />
-                  </a>
-                  <img
-                    src="assets/images/property_grid/property-grid-5.png"
-                    alt="real estate template"
-                  />
-                </div>
-                <div className="portfolio-info mt-3">
-                  <div className="portfolio-title d-inline-block">
-                    <h5 className="font-400 mb-0">
-                      <a href="#" className="text-secondary">
-                        Interior Design
-                      </a>
-                    </h5>
-                    <div className="text-primary">
-                      <a href="#">Business</a> . <a href="#">interior</a>
-                    </div>
-                  </div>
-                  <div className="portfolio-view float-end d-inline-block">
-                    <span className="flaticon-eye text-primary flat-mini" /> 21
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="gallery-one">
-                <div className="photo-overlay">
-                  <a
-                    href="#quick-view"
-                    className="quick-view transation xy-center"
-                  >
-                    <span className="flaticon-eye-1 text-primary" />
-                  </a>
-                  <a
-                    href="assets/images/property_grid/property-grid-6.png"
-                    className="photo-view transation xy-center"
-                    data-fancybox="gallery"
-                    data-caption="Caption for image"
-                  >
-                    <span className="flaticon-zoom-in" />
-                  </a>
-                  <img
-                    src="assets/images/property_grid/property-grid-6.png"
-                    alt="real estate template"
-                  />
-                </div>
-                <div className="portfolio-info mt-3">
-                  <div className="portfolio-title d-inline-block">
-                    <h5 className="font-400 mb-0">
-                      <a href="#" className="text-secondary">
-                        Interior Design
-                      </a>
-                    </h5>
-                    <div className="text-primary">
-                      <a href="#">Business</a> . <a href="#">interior</a>
-                    </div>
-                  </div>
-                  <div className="portfolio-view float-end d-inline-block">
-                    <span className="flaticon-eye text-primary flat-mini" /> 21
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="gallery-one">
-                <div className="photo-overlay">
-                  <a
-                    href="#quick-view"
-                    className="quick-view transation xy-center"
-                  >
-                    <span className="flaticon-eye-1 text-primary" />
-                  </a>
-                  <a
-                    href="assets/images/property_grid/property-grid-7.png"
-                    className="photo-view transation xy-center"
-                    data-fancybox="gallery"
-                    data-caption="Caption for image"
-                  >
-                    <span className="flaticon-zoom-in" />
-                  </a>
-                  <img
-                    src="assets/images/property_grid/property-grid-7.png"
-                    alt="real estate template"
-                  />
-                </div>
-                <div className="portfolio-info mt-3">
-                  <div className="portfolio-title d-inline-block">
-                    <h5 className="font-400 mb-0">
-                      <a href="#" className="text-secondary">
-                        Interior Design
-                      </a>
-                    </h5>
-                    <div className="text-primary">
-                      <a href="#">Business</a> . <a href="#">interior</a>
-                    </div>
-                  </div>
-                  <div className="portfolio-view float-end d-inline-block">
-                    <span className="flaticon-eye text-primary flat-mini" /> 21
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="gallery-one">
-                <div className="photo-overlay">
-                  <a
-                    href="#quick-view"
-                    className="quick-view transation xy-center"
-                  >
-                    <span className="flaticon-eye-1 text-primary" />
-                  </a>
-                  <a
-                    href="assets/images/property_grid/property-grid-8.png"
-                    className="photo-view transation xy-center"
-                    data-fancybox="gallery"
-                    data-caption="Caption for image"
-                  >
-                    <span className="flaticon-zoom-in" />
-                  </a>
-                  <img
-                    src="assets/images/property_grid/property-grid-8.png"
-                    alt="real estate template"
-                  />
-                </div>
-                <div className="portfolio-info mt-3">
-                  <div className="portfolio-title d-inline-block">
-                    <h5 className="font-400 mb-0">
-                      <a href="#" className="text-secondary">
-                        Interior Design
-                      </a>
-                    </h5>
-                    <div className="text-primary">
-                      <a href="#">Business</a> . <a href="#">interior</a>
-                    </div>
-                  </div>
-                  <div className="portfolio-view float-end d-inline-block">
-                    <span className="flaticon-eye text-primary flat-mini" /> 21
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="gallery-one">
-                <div className="photo-overlay">
-                  <a
-                    href="#quick-view"
-                    className="quick-view transation xy-center"
-                  >
-                    <span className="flaticon-eye-1 text-primary" />
-                  </a>
-                  <a
-                    href="assets/images/property_grid/property-grid-1.png"
-                    className="photo-view transation xy-center"
-                    data-fancybox="gallery"
-                    data-caption="Caption for image"
-                  >
-                    <span className="flaticon-zoom-in" />
-                  </a>
-                  <img
-                    src="assets/images/property_grid/property-grid-1.png"
-                    alt="real estate template"
-                  />
-                </div>
-                <div className="portfolio-info mt-3">
-                  <div className="portfolio-title d-inline-block">
-                    <h5 className="font-400 mb-0">
-                      <a href="#" className="text-secondary">
-                        Interior Design
-                      </a>
-                    </h5>
-                    <div className="text-primary">
-                      <a href="#">Business</a> . <a href="#">interior</a>
-                    </div>
-                  </div>
-                  <div className="portfolio-view float-end d-inline-block">
-                    <span className="flaticon-eye text-primary flat-mini" /> 21
-                  </div>
-                </div>
-              </div>
+            <div className="col-lg-5">
+              <h1>Description</h1>
+              <p>
+                Customer satisfaction and unique needs are of the utmost
+                importance to us. Anwar Landmark upholds ethical business
+                conduct across its internal divisions and teams.
+              </p>
+              <p>
+                Our employees uphold discipline and adhere to company values
+                with their hearts, which significantly impacts the level of
+                service and commitment we provide to our esteemed clients and
+                customers.
+              </p>
+              <p>
+                Our human resources are cooperative and united to create a
+                highly qualified cross-functional team.
+              </p>
+              <p>
+                It fosters a strong sense of professionalism and experienced
+                leadership.
+              </p>
             </div>
           </div>
         </div>

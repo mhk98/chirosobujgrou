@@ -30,32 +30,40 @@ const CompanyBackground = () => {
         {/*============== Award Content Start ==============*/}
         <div className="full-row">
           <div className="container">
-            <div className="row" style={{ justifyContent: "space-between" }}>
-              <div className="col-lg-5">
-                <img src="assets/images/about-us/1660046501O37Zo_m.jpg" alt />
-              </div>
-              <div className="col-lg-5">
-                <h1>Who We Are</h1>
-                <p>
-                  Customer satisfaction and unique needs are of the utmost
-                  importance to us. Anwar Landmark upholds ethical business
-                  conduct across its internal divisions and teams.
-                </p>
-                <p>
-                  Our employees uphold discipline and adhere to company values
-                  with their hearts, which significantly impacts the level of
-                  service and commitment we provide to our esteemed clients and
-                  customers.
-                </p>
-                <p>
-                  Our human resources are cooperative and united to create a
-                  highly qualified cross-functional team.
-                </p>
-                <p>
-                  It fosters a strong sense of professionalism and experienced
-                  leadership.
-                </p>
-              </div>
+            <div className="row">
+              <h2>Our Story</h2>
+              <p>
+                <b>“Chiro Sobuj Housing & Developers Limited”</b> became known
+                as CS in 2015. This group is very successful in gaining people's
+                trust and confidence. Through various services across the
+                country, “Chiro Sobuj” is leading to breakthrough success.
+                Around 2020 “Chiro Sobuj” group established a sister concern.{" "}
+              </p>
+              <p>
+                For example, Chiro Sobuj Travels, CS Transport, CS Land selling
+                Business, Chiro Sobuj Somobay Somity, CS Promotional & Printing
+                Item Suppliers, CS Electric & Electronics House, Jahangir Gym
+                Club. The company achieved tremendous success in less than 5
+                (five) years. The only reason for the success of the
+                organization is honesty and transparency, the group now has
+                about 10 (ten) projects in different areas of the country.{" "}
+              </p>
+              <p>
+                The latest addition to the group is the "Chiro Sobuj Hawkers
+                Market", going a long way towards realizing customer needs and
+                implementing creativity with experience from past projects.
+                “Chiro Sobuj” has meaningfully contributed to the country's
+                economic stability in financial and capital markets through
+                major investment initiatives in all key sectors.{" "}
+              </p>
+              <p>
+                Observed the development of close relationship by managing all
+                activities of the group according to customer needs. Most of the
+                "Chiro Sobuj" projects are success stories. This fact alone is
+                enough to justify a sense of confidence in the group's future.{" "}
+              </p>
+
+              <button style={{ width: "200px" }}>Read More...</button>
             </div>
           </div>
         </div>

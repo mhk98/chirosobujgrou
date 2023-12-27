@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Home = () => {
   return (
@@ -835,7 +835,153 @@ const Home = () => {
         </div>
       </div>
       {/*============== Handover Project End ==============*/}
-      {/*============== Apartment Sketch Section Start ==============*/}
+
+      {/*============== Recent Property End ==============*/}
+      {/*============== Property Category Start ==============*/}
+      <div className="full-row bg-secondary">
+        <div className="container">
+          <div className="row">
+            <div className="col mb-5">
+              <h2 className="down-line w-50 mx-auto mb-4 text-center text-white w-sm-100">
+                What You Area Looking For?
+              </h2>
+              <span className="d-table w-50 w-sm-100 sub-title text-white fw-normal mx-auto text-center">
+                Mauris primis turpis Laoreet magna felis mi amet quam enim
+                curae. Sodales semper tempor dictum faucibus habitasse.
+              </span>
+            </div>
+          </div>
+          <div className="row row-cols-lg-5 row-cols-sm-4 row-cols-1 g-3 justify-content-center">
+            <div className="col">
+              <a
+                href="#"
+                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
+              >
+                <div className="box-70px position-relative">
+                  <i className="flaticon-home flat-medium d-inline-block text-primary position-absolute xy-center" />
+                </div>
+                <h6 className="d-block text-secondary">Living House</h6>
+                <p>Preview listing of accommodation property living houses</p>
+              </a>
+            </div>
+            <div className="col">
+              <a
+                href="#"
+                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
+              >
+                <div className="box-70px position-relative">
+                  <i className="flaticon-sketch-1 flat-medium d-inline-block text-primary position-absolute xy-center" />
+                </div>
+                <h6 className="d-block text-secondary">Solid Land</h6>
+                <p>
+                  Hight listed solid use-able land in most popular area for
+                  development
+                </p>
+              </a>
+            </div>
+            <div className="col">
+              <a
+                href="#"
+                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
+              >
+                <div className="box-70px position-relative">
+                  <i className="flaticon-online-booking flat-medium d-inline-block text-primary position-absolute xy-center" />
+                </div>
+                <h6 className="d-block text-secondary">Office Floor</h6>
+                <p>Preview most popular are office building listed category</p>
+              </a>
+            </div>
+            <div className="col">
+              <a
+                href="#"
+                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
+              >
+                <div className="box-70px position-relative">
+                  <i className="flaticon-shop flat-medium d-inline-block text-primary position-absolute xy-center" />
+                </div>
+                <h6 className="d-block text-secondary">Commercial</h6>
+                <p>
+                  Listing Commercial property for business and factory
+                  development
+                </p>
+              </a>
+            </div>
+            <div className="col">
+              <a
+                href="#"
+                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
+              >
+                <div className="box-70px position-relative">
+                  <i className="flaticon-real-estate flat-medium d-inline-block text-primary position-absolute xy-center" />
+                </div>
+                <h6 className="d-block text-secondary">Hostel Room</h6>
+                <p>
+                  If you are single looking for sinlge living, preview the
+                  hostel listing
+                </p>
+              </a>
+            </div>
+            <div className="col">
+              <a
+                href="#"
+                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
+              >
+                <div className="box-70px position-relative">
+                  <i className="flaticon-online-booking flat-medium d-inline-block text-primary position-absolute xy-center" />
+                </div>
+                <h6 className="d-block text-secondary">Appartment</h6>
+                <p>
+                  For family living appartment, find your best appartment in our
+                  directort list
+                </p>
+              </a>
+            </div>
+            <div className="col">
+              <a
+                href="#"
+                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
+              >
+                <div className="box-70px position-relative">
+                  <i className="flaticon-sketch flat-medium d-inline-block text-primary position-absolute xy-center" />
+                </div>
+                <h6 className="d-block text-secondary">Condo</h6>
+                <p>
+                  In our directory we have listed luxury condo for rent and sale
+                </p>
+              </a>
+            </div>
+            <div className="col">
+              <a
+                href="#"
+                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
+              >
+                <div className="box-70px position-relative">
+                  <i className="flaticon-spa flat-medium d-inline-block text-primary position-absolute xy-center" />
+                </div>
+                <h6 className="d-block text-secondary">Villa House</h6>
+                <p>
+                  Please who like villa house click here this category listed
+                </p>
+              </a>
+            </div>
+            <div className="col">
+              <a
+                href="#"
+                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
+              >
+                <div className="box-70px position-relative">
+                  <i className="flaticon-bed flat-medium d-inline-block text-primary position-absolute xy-center" />
+                </div>
+                <h6 className="d-block text-secondary">Hotel Room</h6>
+                <p>
+                  The traveller people can find best hotel here for living night
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="full-row">
         <div className="container">
           <div className="row">
@@ -1007,249 +1153,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/*============== Apartment Sketch Section End ==============*/}
-      {/*============== Recent Property End ==============*/}
-      {/*============== Property Category Start ==============*/}
-      <div className="full-row bg-secondary">
-        <div className="container">
-          <div className="row">
-            <div className="col mb-5">
-              <h2 className="down-line w-50 mx-auto mb-4 text-center text-white w-sm-100">
-                What You Area Looking For?
-              </h2>
-              <span className="d-table w-50 w-sm-100 sub-title text-white fw-normal mx-auto text-center">
-                Mauris primis turpis Laoreet magna felis mi amet quam enim
-                curae. Sodales semper tempor dictum faucibus habitasse.
-              </span>
-            </div>
-          </div>
-          <div className="row row-cols-lg-5 row-cols-sm-4 row-cols-1 g-3 justify-content-center">
-            <div className="col">
-              <a
-                href="#"
-                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
-              >
-                <div className="box-70px position-relative">
-                  <i className="flaticon-home flat-medium d-inline-block text-primary position-absolute xy-center" />
-                </div>
-                <h6 className="d-block text-secondary">Living House</h6>
-                <p>Preview listing of accommodation property living houses</p>
-              </a>
-            </div>
-            <div className="col">
-              <a
-                href="#"
-                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
-              >
-                <div className="box-70px position-relative">
-                  <i className="flaticon-sketch-1 flat-medium d-inline-block text-primary position-absolute xy-center" />
-                </div>
-                <h6 className="d-block text-secondary">Solid Land</h6>
-                <p>
-                  Hight listed solid use-able land in most popular area for
-                  development
-                </p>
-              </a>
-            </div>
-            <div className="col">
-              <a
-                href="#"
-                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
-              >
-                <div className="box-70px position-relative">
-                  <i className="flaticon-online-booking flat-medium d-inline-block text-primary position-absolute xy-center" />
-                </div>
-                <h6 className="d-block text-secondary">Office Floor</h6>
-                <p>Preview most popular are office building listed category</p>
-              </a>
-            </div>
-            <div className="col">
-              <a
-                href="#"
-                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
-              >
-                <div className="box-70px position-relative">
-                  <i className="flaticon-shop flat-medium d-inline-block text-primary position-absolute xy-center" />
-                </div>
-                <h6 className="d-block text-secondary">Commercial</h6>
-                <p>
-                  Listing Commercial property for business and factory
-                  development
-                </p>
-              </a>
-            </div>
-            <div className="col">
-              <a
-                href="#"
-                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
-              >
-                <div className="box-70px position-relative">
-                  <i className="flaticon-real-estate flat-medium d-inline-block text-primary position-absolute xy-center" />
-                </div>
-                <h6 className="d-block text-secondary">Hostel Room</h6>
-                <p>
-                  If you are single looking for sinlge living, preview the
-                  hostel listing
-                </p>
-              </a>
-            </div>
-            <div className="col">
-              <a
-                href="#"
-                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
-              >
-                <div className="box-70px position-relative">
-                  <i className="flaticon-online-booking flat-medium d-inline-block text-primary position-absolute xy-center" />
-                </div>
-                <h6 className="d-block text-secondary">Appartment</h6>
-                <p>
-                  For family living appartment, find your best appartment in our
-                  directort list
-                </p>
-              </a>
-            </div>
-            <div className="col">
-              <a
-                href="#"
-                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
-              >
-                <div className="box-70px position-relative">
-                  <i className="flaticon-sketch flat-medium d-inline-block text-primary position-absolute xy-center" />
-                </div>
-                <h6 className="d-block text-secondary">Condo</h6>
-                <p>
-                  In our directory we have listed luxury condo for rent and sale
-                </p>
-              </a>
-            </div>
-            <div className="col">
-              <a
-                href="#"
-                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
-              >
-                <div className="box-70px position-relative">
-                  <i className="flaticon-spa flat-medium d-inline-block text-primary position-absolute xy-center" />
-                </div>
-                <h6 className="d-block text-secondary">Villa House</h6>
-                <p>
-                  Please who like villa house click here this category listed
-                </p>
-              </a>
-            </div>
-            <div className="col">
-              <a
-                href="#"
-                className="text-center d-flex flex-column align-items-center hover-text-black p-4 bg-white transation text-general hover-bg-primary h-100"
-              >
-                <div className="box-70px position-relative">
-                  <i className="flaticon-bed flat-medium d-inline-block text-primary position-absolute xy-center" />
-                </div>
-                <h6 className="d-block text-secondary">Hotel Room</h6>
-                <p>
-                  The traveller people can find best hotel here for living night
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="full-row bg-gray">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 mb-5">
-              <h3 className="mb-4 text-center w-50 w-sm-100 mx-auto">
-                Corporate Services For Our Honourable Customer
-              </h3>
-              <span className="text-secondary w-75 d-table text-center w-sm-100 mx-auto pb-4">
-                Molestie accumsan ipsum condimentum curabitur euismod tempor
-                aptent nullam aliquet phasellus. Lobortis felis tortor curae mi
-                semper porta pellentesque.
-              </span>
-            </div>
-          </div>
-          <div className="row row-cols-lg-3 row-cols-md-2 row-cols-1">
-            <div className="col mb-5">
-              <div className="thumb-modern-border p-4 h-100">
-                <i className="flaticon-capital flat-medium text-primary bg-gray d-table" />
-                <h5 className="my-3">
-                  <a href="#">Funding New Business</a>
-                </h5>
-                <p>
-                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
-                  Suscipit risus volutpat varius eget. Elementum mauris tempor
-                  at class nullam.
-                </p>
-              </div>
-            </div>
-            <div className="col mb-5">
-              <div className="thumb-modern-border p-4 h-100">
-                <i className="flaticon-cost flat-medium text-primary bg-gray d-table" />
-                <h5 className="my-3">
-                  <a href="#">Finincial Planing &amp; Budget</a>
-                </h5>
-                <p>
-                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
-                  Suscipit risus volutpat varius eget. Elementum mauris tempor
-                  at class nullam.
-                </p>
-              </div>
-            </div>
-            <div className="col mb-5">
-              <div className="thumb-modern-border p-4 h-100">
-                <i className="flaticon-insurance flat-medium text-primary bg-gray d-table" />
-                <h5 className="my-3">
-                  <a href="#">Business Insurance</a>
-                </h5>
-                <p>
-                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
-                  Suscipit risus volutpat varius eget. Elementum mauris tempor
-                  at class nullam.
-                </p>
-              </div>
-            </div>
-            <div className="col mb-5">
-              <div className="thumb-modern-border p-4 h-100">
-                <i className="flaticon-money-1 flat-medium text-primary bg-gray d-table" />
-                <h5 className="my-3">
-                  <a href="#">Stock Exchange Help</a>
-                </h5>
-                <p>
-                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
-                  Suscipit risus volutpat varius eget. Elementum mauris tempor
-                  at class nullam.
-                </p>
-              </div>
-            </div>
-            <div className="col mb-5">
-              <div className="thumb-modern-border p-4 h-100">
-                <i className="flaticon-cargo flat-medium text-primary bg-gray d-table" />
-                <h5 className="my-3">
-                  <a href="#">Export &amp; Trade Assistance</a>
-                </h5>
-                <p>
-                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
-                  Suscipit risus volutpat varius eget. Elementum mauris tempor
-                  at class nullam.
-                </p>
-              </div>
-            </div>
-            <div className="col mb-5">
-              <div className="thumb-modern-border p-4 h-100">
-                <i className="flaticon-group flat-medium text-primary bg-gray d-table" />
-                <h5 className="my-3">
-                  <a href="#">Development Program</a>
-                </h5>
-                <p>
-                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
-                  Suscipit risus volutpat varius eget. Elementum mauris tempor
-                  at class nullam.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/*Our Service End*/}
+
       {/*============== Property Location Start ==============*/}
       <div className="full-row">
         <div className="container">
@@ -1361,6 +1265,104 @@ const Home = () => {
         </div>
       </div>
       {/*============== Property Location End ==============*/}
+      <div className="full-row bg-gray">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 mb-5">
+              <h3 className="mb-4 text-center w-50 w-sm-100 mx-auto">
+                Corporate Services For Our Honourable Customer
+              </h3>
+              <span className="text-secondary w-75 d-table text-center w-sm-100 mx-auto pb-4">
+                Molestie accumsan ipsum condimentum curabitur euismod tempor
+                aptent nullam aliquet phasellus. Lobortis felis tortor curae mi
+                semper porta pellentesque.
+              </span>
+            </div>
+          </div>
+          <div className="row row-cols-lg-3 row-cols-md-2 row-cols-1">
+            <div className="col mb-5">
+              <div className="thumb-modern-border p-4 h-100">
+                <i className="flaticon-capital flat-medium text-primary bg-gray d-table" />
+                <h5 className="my-3">
+                  <a href="#">Funding New Business</a>
+                </h5>
+                <p>
+                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
+                  Suscipit risus volutpat varius eget. Elementum mauris tempor
+                  at class nullam.
+                </p>
+              </div>
+            </div>
+            <div className="col mb-5">
+              <div className="thumb-modern-border p-4 h-100">
+                <i className="flaticon-cost flat-medium text-primary bg-gray d-table" />
+                <h5 className="my-3">
+                  <a href="#">Finincial Planing &amp; Budget</a>
+                </h5>
+                <p>
+                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
+                  Suscipit risus volutpat varius eget. Elementum mauris tempor
+                  at class nullam.
+                </p>
+              </div>
+            </div>
+            <div className="col mb-5">
+              <div className="thumb-modern-border p-4 h-100">
+                <i className="flaticon-insurance flat-medium text-primary bg-gray d-table" />
+                <h5 className="my-3">
+                  <a href="#">Business Insurance</a>
+                </h5>
+                <p>
+                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
+                  Suscipit risus volutpat varius eget. Elementum mauris tempor
+                  at class nullam.
+                </p>
+              </div>
+            </div>
+            <div className="col mb-5">
+              <div className="thumb-modern-border p-4 h-100">
+                <i className="flaticon-money-1 flat-medium text-primary bg-gray d-table" />
+                <h5 className="my-3">
+                  <a href="#">Stock Exchange Help</a>
+                </h5>
+                <p>
+                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
+                  Suscipit risus volutpat varius eget. Elementum mauris tempor
+                  at class nullam.
+                </p>
+              </div>
+            </div>
+            <div className="col mb-5">
+              <div className="thumb-modern-border p-4 h-100">
+                <i className="flaticon-cargo flat-medium text-primary bg-gray d-table" />
+                <h5 className="my-3">
+                  <a href="#">Export &amp; Trade Assistance</a>
+                </h5>
+                <p>
+                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
+                  Suscipit risus volutpat varius eget. Elementum mauris tempor
+                  at class nullam.
+                </p>
+              </div>
+            </div>
+            <div className="col mb-5">
+              <div className="thumb-modern-border p-4 h-100">
+                <i className="flaticon-group flat-medium text-primary bg-gray d-table" />
+                <h5 className="my-3">
+                  <a href="#">Development Program</a>
+                </h5>
+                <p>
+                  Mollis lorem posuere porta class sociis rhoncus primis ornare.
+                  Suscipit risus volutpat varius eget. Elementum mauris tempor
+                  at class nullam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*Our Service End*/}
+
       {/*============== Data Counting Start ==============*/}
       <div className="full-row p-0">
         <div className="container">
@@ -1458,25 +1460,26 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="full-row">
-        <div className="container">
-          <div className="row">
-            <div className="col mb-5">
-              <span className="text-primary tagline pb-2 d-table m-auto">
+
+      <div class="full-row">
+        <div class="container">
+          <div class="row">
+            <div class="col mb-5">
+              <span class="text-primary tagline pb-2 d-table m-auto">
                 Testimonial
               </span>
-              <h2 className="down-line w-50 mx-auto mb-4 text-center w-sm-100">
-                Whay Client Says About Us
+              <h2 class="down-line w-50 mx-auto mb-4 text-center w-sm-100">
+                Why Client Says About Us
               </h2>
             </div>
           </div>
-          <div className="row justify-content-center">
-            <div className="col-lg-7">
-              <div className="testimonial-simple text-center px-5">
-                <div className="text-carusel owl-carousel">
-                  <div className="item">
-                    <i className="flaticon-right-quote flat-large text-primary d-table mx-auto" />
-                    <blockquote className="text-secondary fs-5 fst-italic">
+          <div class="row justify-content-center">
+            <div class="col-lg-7">
+              <div class="testimonial-simple text-center px-5">
+                <div class="text-carusel owl-carousel">
+                  <div class="item">
+                    <i class="flaticon-right-quote flat-large text-primary d-table mx-auto"></i>
+                    <blockquote class="text-secondary fs-5 fst-italic">
                       “ Posuere mus curabitur parturient scelerisque suspendisse
                       elementum facilisis dignissim non purus torquent turpis
                       interdum hendrerit erat ultrices pretium risus elementum.
@@ -1484,14 +1487,14 @@ const Home = () => {
                       parturient urna varius. Sollicitudin pede sapien taciti
                       dui. ”
                     </blockquote>
-                    <h4 className="mt-4 font-400">Mark Wiggins</h4>
-                    <span className="text-primary font-fifteen">
+                    <h4 class="mt-4 font-400">Mark Wiggins</h4>
+                    <span class="text-primary font-fifteen">
                       CEO ( Grodins Group )
                     </span>
                   </div>
-                  <div className="item">
-                    <i className="flaticon-right-quote flat-large text-primary d-table mx-auto" />
-                    <blockquote className="text-secondary fs-5 fst-italic">
+                  <div class="item">
+                    <i class="flaticon-right-quote flat-large text-primary d-table mx-auto"></i>
+                    <blockquote class="text-secondary fs-5 fst-italic">
                       “ Posuere mus curabitur parturient scelerisque suspendisse
                       elementum facilisis dignissim non purus torquent turpis
                       interdum hendrerit erat ultrices pretium risus elementum.
@@ -1499,14 +1502,14 @@ const Home = () => {
                       parturient urna varius. Sollicitudin pede sapien taciti
                       dui. ”
                     </blockquote>
-                    <h4 className="mt-4 font-400">Mark Wiggins</h4>
-                    <span className="text-primary font-fifteen">
+                    <h4 class="mt-4 font-400">Mark Wiggins</h4>
+                    <span class="text-primary font-fifteen">
                       CEO ( Grodins Group )
                     </span>
                   </div>
-                  <div className="item">
-                    <i className="flaticon-right-quote flat-large text-primary d-table mx-auto" />
-                    <blockquote className="text-secondary fs-5 fst-italic">
+                  <div class="item">
+                    <i class="flaticon-right-quote flat-large text-primary d-table mx-auto"></i>
+                    <blockquote class="text-secondary fs-5 fst-italic">
                       “ Posuere mus curabitur parturient scelerisque suspendisse
                       elementum facilisis dignissim non purus torquent turpis
                       interdum hendrerit erat ultrices pretium risus elementum.
@@ -1514,8 +1517,8 @@ const Home = () => {
                       parturient urna varius. Sollicitudin pede sapien taciti
                       dui. ”
                     </blockquote>
-                    <h4 className="mt-4 font-400">Mark Wiggins</h4>
-                    <span className="text-primary font-fifteen">
+                    <h4 class="mt-4 font-400">Mark Wiggins</h4>
+                    <span class="text-primary font-fifteen">
                       CEO ( Grodins Group )
                     </span>
                   </div>
@@ -1525,6 +1528,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       {/*============== Testimonial Section End ==============*/}
 
       {/* Scroll to top */}

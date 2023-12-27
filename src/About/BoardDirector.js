@@ -8,7 +8,7 @@ const BoardDirector = () => {
     <div className="container">
       <div className="row">
         <div className="col">
-          <h3 className="text-secondary">Our Board Directors</h3>
+          <h3 className="text-secondary mt-5">Our Board Directors</h3>
         </div>
       </div>
     </div>

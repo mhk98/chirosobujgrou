@@ -8,7 +8,7 @@ const OurManagement = () => {
     <div className="container">
       <div className="row">
         <div className="col">
-          <h3 className="text-secondary">Our Management</h3>
+          <h3 className="text-secondary mt-5">Our Management</h3>
         </div>
       </div>
     </div>

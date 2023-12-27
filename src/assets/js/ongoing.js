@@ -1,5 +1,5 @@
 // Fetch data from the API
-fetch("http://localhost:5000/api/v1/ongoing/")
+fetch("https://chirosobujgroup-backend.onrender.com/api/v1/ongoing/")
   .then((response) => response.json())
   .then((data) => {
     const projectContainer = document.querySelector(".col");

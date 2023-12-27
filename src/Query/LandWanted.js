@@ -16,57 +16,39 @@ const LandWanted = () => {
     </div>
   </div>
   {/*============== Page Banner End ==============*/}
-  {/*============== Innter Page Content Start ==============*/}
+ 
   <div className="full-row">
-    <div className="container">
-      <div className="row">
-        <div className="col-md-12">
-          <div className="bg-white rounded border p-30">
-            <h4 className="mb-3">Mission Statement</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-              mollis et sem sed sollicitudin. Donec non odio neque. Aliquam
-              hendrerit sollicitudin purus, quis rutrum mi accumsan nec.
-              Quisque bibendum orci ac nibh facilisis, at malesuada orci
-              congue. Nullam tempus sollicitudin cursus. Ut et adipiscing
-              erat. Curabitur this is a text link libero tempus congue.
-            </p>
-            <p>
-              Posuere ante tincidunt sed porta senectus fusce interdum.
-              Dictum class semper Ornare venenatis habitant sodales.
-              Venenatis volutpat torquent. Curae; suspendisse ligula
-              suscipit magna. Interdum dapibus in nulla mollis velit taciti
-              mollis gravida torquent lacus lobortis volutpat elementum leo
-              pharetra. Hac congue consequat ante laoreet consectetuer. Cum.
-              Nulla nisl purus a. Et felis platea ligula cubilia massa
-              ultrices leo iaculis porttitor.
-            </p>
-            <h4 className="mb-3">Property Construction Terms</h4>
-            <p>
-              Dolor nunc accumsan. Nostra praesent elit a lacus pharetra.
-              Elit gravida, scelerisque fringilla netus euismod augue a
-              vitae enim erat urna sit, rhoncus. Sociis ligula praesent.
-              Tempus dui taciti integer, convallis Senectus facilisi
-              molestie. Augue libero tincidunt volutpat. Ante hendrerit
-              class etiam aliquet habitasse aenean phasellus bibendum dolor
-              cras fringilla sem praesent consectetuer tempor venenatis
-              donec. Turpis porta vel augue.
-            </p>
-            <p>
-              Aliquam sollicitudin consequat praesent eu diam. Aptent auctor
-              bibendum. Vulputate porttitor. Taciti tincidunt taciti vel
-              cubilia posuere nascetur ultrices ultrices lectus ridiculus
-              sodales pharetra felis eget nonummy justo mauris blandit.
-              consequat praesent eu diam. Aptent auctor bibendum. Vulputate
-              porttitor. Taciti tincidunt taciti vel cubilia posuere
-              nascetur.
-            </p>
+        <div className="container">
+          <div className="row" style={{ justifyContent: "space-between" }}>
+            <div className="col-lg-5">
+              <img src="assets/images/about-us/1660046501O37Zo_m.jpg" alt />
+            </div>
+            <div className="col-lg-5">
+              <h1>Description</h1>
+              <p>
+                Customer satisfaction and unique needs are of the utmost
+                importance to us. Anwar Landmark upholds ethical business
+                conduct across its internal divisions and teams.
+              </p>
+              <p>
+                Our employees uphold discipline and adhere to company values
+                with their hearts, which significantly impacts the level of
+                service and commitment we provide to our esteemed clients and
+                customers.
+              </p>
+              <p>
+                Our human resources are cooperative and united to create a
+                highly qualified cross-functional team.
+              </p>
+              <p>
+                It fosters a strong sense of professionalism and experienced
+                leadership.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  {/*============== Innter Page Content End ==============*/}
+      
 </div>
 
     );
